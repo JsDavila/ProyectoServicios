@@ -1,12 +1,12 @@
 # ProyectoServicios
 Monitoreo Nagios
 
-##Pasos para la instalación de nagios
+## Pasos para la instalación de nagios
 
 
 Antes de la instalación de los paquetes o plugins de la herramienta primero debemos ser SELINUX en la ruta /etc/sysconfig/selinux. En el archivo /etc/sysconfig/selinux se cambió la opción de “SELINUX=enforcing” a “SELINUX=disabled”
 
-##Instalación de paquetes
+## Instalación de paquetes
 
 yum install –y httpd php gcc glibc glibc-common gd gd-devel make netsnmp net-snmp-utils
 
@@ -20,7 +20,7 @@ wget https://www.nagios-plugins.org/download/nagios-plugins-1.5.tar.gz
 
 
 
-##Creación de usuarios y grupo
+## Creación de usuarios y grupo
 
 
 useradd nagios
